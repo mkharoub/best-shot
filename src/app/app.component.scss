@@ -1,0 +1,15 @@
+.bs-wrapper {
+  min-height: 100vh;
+
+  .main-content-wrapper {
+    flex: 1 1 auto;
+    margin: 60px 0 0;
+    width: 100vw;
+    align-self: center;
+
+    .main-content {
+      width: 692px;
+      max-width: 692px;
+    }
+  }
+}

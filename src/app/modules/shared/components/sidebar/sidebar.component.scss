@@ -1,0 +1,12 @@
+.bs-sidebar {
+  width: 356px;
+  padding-right: 8px;
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  overflow: hidden auto;
+
+  &::-webkit-scrollbar-track {
+    background-color: rgba(22, 24, 35, 0.03);
+  }
+}
