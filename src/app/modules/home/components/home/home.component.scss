@@ -1,0 +1,12 @@
+.bs-home {
+  min-height: calc(100vh - 84px);
+
+  > .container {
+    align-self: center;
+  }
+
+  .bs-home__content {
+    width: 692px;
+    max-width: 692px;
+  }
+}

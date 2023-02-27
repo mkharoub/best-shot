@@ -1,6 +1,10 @@
 <header class="bs-header">
   <div class="container d-flex justify-content-between align-items-center h-100">
-    <div class="bs-header__logo">Logo!</div>
-    <div class="bs-header__other-parts">other parts</div>
+    <div class="bs-header__logo">
+      <a [routerLink]="['/']">Logo!</a>
+    </div>
+    <div class="bs-header__other-parts">
+      <a [routerLink]="['/upload']" title="Upload a video" class="btn btn-outline-primary">Upload</a>
+    </div>
   </div>
 </header>
