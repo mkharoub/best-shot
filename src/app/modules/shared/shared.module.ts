@@ -1,22 +1,17 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 
-import {SidebarComponent} from './components/sidebar/sidebar.component';
-import {HeaderComponent} from "./components/header/header.component";
-import {RouterModule} from "@angular/router";
+import {DropdownDirective} from "./directives/dropdown.directive";
 
 @NgModule({
   declarations: [
-    HeaderComponent,
-    SidebarComponent
+    DropdownDirective
   ],
   imports: [
-    CommonModule,
-    RouterModule
+    CommonModule
   ],
   exports: [
-    HeaderComponent,
-    SidebarComponent
+    DropdownDirective
   ]
 })
 export class SharedModule {

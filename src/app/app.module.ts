@@ -3,18 +3,16 @@ import {BrowserModule} from '@angular/platform-browser';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
-import {SharedModule} from "./modules/shared/shared.module";
-import {NotFoundComponent} from './shared/components/not-found/not-found.component';
+import {UiModule} from "./modules/ui/ui.module";
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NotFoundComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule
+    UiModule
   ],
   providers: [],
   bootstrap: [AppComponent]

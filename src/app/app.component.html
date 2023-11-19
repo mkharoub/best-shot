@@ -1,6 +1,9 @@
-<div class="bs-wrapper d-flex flex-column">
-  <bs-header></bs-header>
-  <div class="bs-wrapper__main-content flex-grow-1 pt-4">
-    <router-outlet></router-outlet>
+<div class="bs-root d-flex flex-column" attr.data-theme="{{appTheme}}">
+  <bs-header (onThemeChanged)="onThemeChanged()"></bs-header>
+  <div class="bsr__main-content d-flex flex-grow-1">
+    <bs-sidebar></bs-sidebar>
+    <div class="bsr__content w-100">
+      <router-outlet></router-outlet>
+    </div>
   </div>
 </div>

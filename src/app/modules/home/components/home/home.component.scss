@@ -1,12 +1,16 @@
 .bs-home {
-  min-height: calc(100vh - 84px);
+  min-height: calc(100vh - 60px);
+  padding-top: 20px;
 
-  > .container {
-    align-self: center;
-  }
-
-  .bs-home__content {
+  .bs-home__main-content {
     width: 692px;
     max-width: 692px;
+    gap: 16px;
+  }
+
+  .post {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #efefef;
   }
 }

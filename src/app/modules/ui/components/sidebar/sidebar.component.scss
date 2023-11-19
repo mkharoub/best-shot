@@ -1,0 +1,20 @@
+.bs-sidebar {
+  width: 240px;
+  padding-right: 8px;
+  overflow: hidden;
+  height: 100%;
+  max-height: calc(100vh - 60px);
+
+  .bss__content {
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    overflow: hidden auto;
+    width: 240px;
+    max-height: calc(100vh - 104px);
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: rgba(22, 24, 35, 0.03);
+  }
+}

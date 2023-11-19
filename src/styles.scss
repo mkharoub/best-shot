@@ -1,9 +1,18 @@
+:root {
+  --bs-primary: #0169a4;
+  --bs-c1: #ffffff;
+}
+
+[data-theme='dark'] {
+  --bs-c1: #0e0e0e;
+}
+
 html {
   body {
     overflow-y: overlay;
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    background-color: #fff;
+    font-size: 16px;
+    background-color: var(--bs-c1);
     overscroll-behavior: contain;
     -webkit-font-smoothing: antialiased;
     min-height: 100vh;
@@ -39,4 +48,12 @@ html *::-webkit-scrollbar-thumb {
   .container {
     max-width: 1150px;
   }
+}
+
+a {
+  cursor: pointer;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
